@@ -39,3 +39,7 @@ CREATE OR REPLACE STAGE "<database>"."<schema>"."<stage>"
 
 --Internal Stage 
 --Need snowsql installed to load files from local and use PUT command 
+
+--List files in stage
+
+LIST @<database>.<schema>.<stage>;
